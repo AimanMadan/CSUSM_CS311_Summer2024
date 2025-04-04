@@ -1,2 +1,6 @@
 app/* linguist-documentation=false
 app/* linguist-vendored
+.github/fsharp-custom-action/** -linguist-vendored
+
+# Exclude RTF files from language statistics
+*.rtf linguist-vendored=true
