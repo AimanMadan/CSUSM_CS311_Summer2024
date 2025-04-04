@@ -1,0 +1,23 @@
+
+HW1 INSTRUCTIONS
+
+  HW1 assignments are reviews of CS211 concepts.
+  That is why we move very fast through them!
+
+  First, read the assignment sheet throughly.
+
+  Always run my demo programs first.
+  To make sure they are executable,
+  chmod u+x *.out
+  then do
+  ./<name of prog>.out
+
+  Always read @@readme in each sub-folder.
+
+  Always read .h to determine what functions are in .cpp.
+
+  Complete .h and .cpp files. Always look for **.
+
+  Test with my test.cpp files but never change them!
+ [ Study my test programs to learn how to write
+   test programs in the future!   ]   

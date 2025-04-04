@@ -1,0 +1,50 @@
+Script started on 2024-06-22 13:53:56-07:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="80" LINES="24"]
+[?2004hbash-5.1$ clea[3Pcd HW2P1_searc[1P2P1_searc[5PforHHWPrograCS311Progs[C[C[C[C[C[C[C[C[C[C[7Plogo/cs/recordhw Test.txt[C[C[C[C[C[C[C[C[C[C[9Pg++ mat.cpp [C[C[C[C[C[C[C[C[C[Ccd HW1P3_matrix[C[C[C[C[C[C[C[C[C[C[3Pg++ mat.cpp [C[C[C[C[C[C[C[C[C[Ccd HW1P3_matr[6PforHW[3Plogo/cs/recordhw Test.txt[C[C[C[C[C[C[C[C[C[Clsg++ mat.cpp [C[C[C[C[C[C[C[C[C[Ccd HW1P3_matr[6PforHHWPrograCS311Progs[C[C[C[C[C[C[C[C[C[C./hw2partitionDemo.out[C[C[C[C[C[C[C[C[C[Cg++ hw2partitionDemo.out[C[C[C[C[C[C[C[C[C[C[11Pcd HW2P2_so[4PforHW[5Pex./a.ouhw2partitionDemo.out[C[C[C[C[C[C[C[C[C[C[C[Ca.out[K
+[?2004lWhat do you want to look for? 1
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Found it in position 1
+[?2004hbash-5.1$ ./a.out
+[?2004lWhat do you want to look for? 19
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Found it in position 10
+[?2004hbash-5.1$ ./a.out
+[?2004lWhat do you want to look for? 5
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+Found it in position 3
+[?2004hbash-5.1$ ./a.out
+[?2004lWhat do you want to look for? 17
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+Found it in position 9
+[?2004hbash-5.1$ ./a.out
+[?2004lWhat do you want to look for? 21
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Element not found
+[?2004hbash-5.1$ ./a.out
+[?2004lWhat do you want to look for? 0
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Element not found
+[?2004hbash-5.1$ ./a.out
+[?2004lWhat do you want to look for? 6
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+comparing against an element in slot 3
+Element not found
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-06-22 13:55:32-07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,39 @@
+Script started on 2024-07-04 18:20:32-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="237" LINES="63"]
+[?2004hbash-5.1$ /cs/recordhw Test2.txt[C[C[C[C[C[C[C[C[C[C[10Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ combine.cpp[C[C[C[C[C[C[C[C[C[C/cs/recordhw Test1.txt[C[C[C[C[C[C[C[C[C[C[5Pg++ partition.cpp[C[C[C[C[C[C[C[C[C[C[4Pcd HW2P2_so[1P_sorW_sort[C[C[C[C[C[C[C[C[C[C[3PHW2PW_so[1Pcd forHHWPrograCS311Progs[C[C[C[C[C[C[C[C[C[C[7Plogocd CS311ProHWProgra[4PforHWHW2PW_socd HW2PW_so[1P_sor2_sort[C[C[C[C[C[C[C[C[C[Cg++ partition.cpp[C[C[C[C[C[C[C[C[C[C/cs/recordhw Test1.txt[C[C[C[C[C[C[C[C[C[C[7Pg++ combine.cpp[C[C[C[C[C[C[C[C[C[C[3Prm Test2.txt[C[C[C[C[C[C[C[C[C[C[10@/cs/recordhw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K/cs/recordhw Test2.txt[C[C[C[C[C[C[C[C[C[C[10Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ combine.cpp[C[C[C[C[C[C[C[C[C[C/cs/recordhw Test1.txt[C[C[C[C[C[C[C[C[C[C[5Pg++ partition.cpp[C[C[C[C[C[C[C[C[C[C[4Pcd HW2P2_so[1P_sorW_sort[C[C[C[C[C[C[C[C[C[C[3PHW2PW_so[1Pcd forHHWPrograCS311Progs[C[C[C[C[C[C[C[C[C[C[7Plogo/cs/recordhw Test.txt[C[C[C[C[C[C[C[C[C[C[6Pcd HW2P1_search[C[C[C[C[C[C[C[C[C[C/cs/recordhw Test.txt[C[C[C[C[C[C[C[C[C[C[6Pcd HW2P1_search[C[C[C[C[C[C[C[C[C[Cg++ HW2P1_search.c[K[C[C[C[C[C[C[C[C[C[CLScd CS311Progrs[C[C[C[C[C[C[C[C[C[C[8PforH[4Pex./a.ou[3Pex./a.out
+[?2004lCASE 1: Basic --------------- 
+... in llist constructor...
+Step 1
+It is empty
+Step 2
+[ empty ]
+Step 3 adding  1 2 3 4
+Step 4
+[ 1 2 3 4 ]
+Step 5 deleteFront twice
+Removed: 1
+Removed: 2
+Step 6
+[ 3 4 ]
+Step 7
+[ 3 4 ]
+Step 8 deleteRear twice
+Removed: 4
+[ 3 ]
+Removed: 3
+Step 9
+It is empty
+Step 10
+Step 11
+[ 5 6 8 9 ]
+Step 12 deleteRear all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 13
+[ empty ]
+.... in llist destructor...
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-07-04 18:20:58-07:00 [COMMAND_EXIT_CODE="0"]

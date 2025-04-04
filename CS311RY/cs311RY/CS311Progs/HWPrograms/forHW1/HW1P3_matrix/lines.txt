@@ -1,0 +1,7 @@
+0 a   a b c 
+0 b   b e f 
+1 c   c h i 
+2 d   d k l 
+
+
+ 

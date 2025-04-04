@@ -1,0 +1,26 @@
+
+CS311 Yoshii
+
+COPY using cp -r as specified in the Given Before Semester sheet!
+  These directories are to be COPIED to your account.
+
+  Demo Programs should be studied and tested on empress
+  in your own account AFTER you have copied the files. 
+
+  Although you are only required to compile and run programs
+  on empress, you should try editing programs using emacs.
+  Learning to use UNIX is very important for future classes and getting jobs! 
+
+  Do all work within the HWPrograms directory so that it is easy
+  to copy necesary files between assignments.
+
+  You may download all the files using SFTclient / FileZilla
+  if you wish.
+
+Note that you can always do 
+   more  filename
+to display files one screen at a time.
+
+Study the help files on the COMPILER and UNIX right now and practice!!!!
+
+  

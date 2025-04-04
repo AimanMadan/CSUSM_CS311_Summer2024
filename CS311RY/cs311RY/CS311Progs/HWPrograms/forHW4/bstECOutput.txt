@@ -1,0 +1,334 @@
+
+[madan005@empress forHW4]$ ./bstEC.out
+===  Starting a new tree with many nodes ====
+Trying to insert 1
+...adding 1 as the root
+Trying to insert 3
+...going to the right
+...adding 3 as the right child of 1
+3 points up now to 1
+..>>Start climbing up to adjust heights ......
+...3's height: 0 with balance: 0
+...1's height: 1 with balance: 1
+Trying to insert 5
+...going to the right
+...going to the right
+...adding 5 as the right child of 3
+5 points up now to 3
+..>>Start climbing up to adjust heights ......
+...5's height: 0 with balance: 0
+...3's height: 1 with balance: 1
+...1's height: 2 with balance: 2
+Trying to insert 7
+...going to the right
+...going to the right
+...going to the right
+...adding 7 as the right child of 5
+7 points up now to 5
+..>>Start climbing up to adjust heights ......
+...7's height: 0 with balance: 0
+...5's height: 1 with balance: 1
+...3's height: 2 with balance: 2
+...1's height: 3 with balance: 3
+Trying to insert 9
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...adding 9 as the right child of 7
+9 points up now to 7
+..>>Start climbing up to adjust heights ......
+...9's height: 0 with balance: 0
+...7's height: 1 with balance: 1
+...5's height: 2 with balance: 2
+...3's height: 3 with balance: 3
+...1's height: 4 with balance: 4
+Trying to insert 10
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...adding 10 as the right child of 9
+10 points up now to 9
+..>>Start climbing up to adjust heights ......
+...10's height: 0 with balance: 0
+...9's height: 1 with balance: 1
+...7's height: 2 with balance: 2
+...5's height: 3 with balance: 3
+...3's height: 4 with balance: 4
+...1's height: 5 with balance: 5
+Trying to insert 8
+...going to the right
+...going to the right
+...going to the right
+...going to the right
+...going to the left
+...adding 8 as the left child of 9
+8 points up now to 9
+..>>Start climbing up to adjust heights ......
+...8's height: 0 with balance: 0
+...9's height: 1 with balance: 0
+...7's height: 2 with balance: 2
+...5's height: 3 with balance: 3
+...3's height: 4 with balance: 4
+...1's height: 5 with balance: 5
+Trying to insert 6
+...going to the right
+...going to the right
+...going to the right
+...going to the left
+...adding 6 as the left child of 7
+6 points up now to 7
+..>>Start climbing up to adjust heights ......
+...6's height: 0 with balance: 0
+...7's height: 2 with balance: 1
+...5's height: 3 with balance: 3
+...3's height: 4 with balance: 4
+...1's height: 5 with balance: 5
+Trying to insert 4
+...going to the right
+...going to the right
+...going to the left
+...adding 4 as the left child of 5
+4 points up now to 5
+..>>Start climbing up to adjust heights ......
+...4's height: 0 with balance: 0
+...5's height: 3 with balance: 2
+...3's height: 4 with balance: 4
+...1's height: 5 with balance: 5
+Trying to insert 2
+...going to the right
+...going to the left
+...adding 2 as the left child of 3
+2 points up now to 3
+..>>Start climbing up to adjust heights ......
+...2's height: 0 with balance: 0
+...3's height: 4 with balance: 3
+...1's height: 5 with balance: 5
+----------------------------------------
+Elements in the IN order:
+Root is: 1
+1    Height: 5 Balance: 5
+2    Height: 0 Balance: 0
+3    Height: 4 Balance: 3
+4    Height: 0 Balance: 0
+5    Height: 3 Balance: 2
+6    Height: 0 Balance: 0
+7    Height: 2 Balance: 1
+8    Height: 0 Balance: 0
+9    Height: 1 Balance: 0
+10    Height: 0 Balance: 0
+----------------------------------------
+Searching ....
+--- Start Search for 5--------
+found 5
+--- Start Search for 11--------
+11 not found
+--- Start Search for 0--------
+0 not found
+Type any key to continue /
+===  Starting a new tree with 3 nodes ====
+Trying to insert 1
+...adding 1 as the root
+Trying to insert 2
+...going to the right
+...adding 2 as the right child of 1
+2 points up now to 1
+..>>Start climbing up to adjust heights ......
+...2's height: 0 with balance: 0
+...1's height: 1 with balance: 1
+Trying to insert 3
+...going to the right
+...going to the right
+...adding 3 as the right child of 2
+3 points up now to 2
+..>>Start climbing up to adjust heights ......
+...3's height: 0 with balance: 0
+...2's height: 1 with balance: 1
+...1's height: 2 with balance: 2
+Trying to delete 7
+...going to the right
+...going to the right
+...going to the right
+Did not find the key in the tree.
+Trying to delete 1
+...deleting root and making right child the root
+----------------------------------------
+Elements in the IN order:
+Root is: 2
+2    Height: 1 Balance: 1
+3    Height: 0 Balance: 0
+----------------------------------------
+Type any key to continue /
+===  Starting another tree with 3 nodes ====
+Trying to insert 10
+...adding 10 as the root
+Trying to insert 9
+...going to the left
+...adding 9 as the left child of 10
+9 points up now to 10
+..>>Start climbing up to adjust heights ......
+...9's height: 0 with balance: 0
+...10's height: 1 with balance: -1
+Trying to insert 8
+...going to the left
+...going to the left
+...adding 8 as the left child of 9
+8 points up now to 9
+..>>Start climbing up to adjust heights ......
+...8's height: 0 with balance: 0
+...9's height: 1 with balance: -1
+...10's height: 2 with balance: -2
+Trying to delete 7
+...going to the left
+...going to the left
+...going to the left
+Did not find the key in the tree.
+Trying to delete 10
+...deleting root and making left child the root
+----------------------------------------
+Elements in the IN order:
+Root is: 9
+8    Height: 0 Balance: 0
+9    Height: 1 Balance: -1
+----------------------------------------
+Type any key to continue /
+===  Starting a new tree with 7 nodes ====
+Trying to insert 3
+...adding 3 as the root
+Trying to insert 1
+...going to the left
+...adding 1 as the left child of 3
+1 points up now to 3
+..>>Start climbing up to adjust heights ......
+...1's height: 0 with balance: 0
+...3's height: 1 with balance: -1
+Trying to insert 2
+...going to the left
+...going to the right
+...adding 2 as the right child of 1
+2 points up now to 1
+..>>Start climbing up to adjust heights ......
+...2's height: 0 with balance: 0
+...1's height: 1 with balance: 1
+...3's height: 2 with balance: -2
+Trying to insert 0
+...going to the left
+...going to the left
+...adding 0 as the left child of 1
+0 points up now to 1
+..>>Start climbing up to adjust heights ......
+...0's height: 0 with balance: 0
+...1's height: 1 with balance: 0
+...3's height: 2 with balance: -2
+Trying to insert 5
+...going to the right
+...adding 5 as the right child of 3
+5 points up now to 3
+..>>Start climbing up to adjust heights ......
+...5's height: 0 with balance: 0
+...3's height: 2 with balance: -1
+Trying to insert 6
+...going to the right
+...going to the right
+...adding 6 as the right child of 5
+6 points up now to 5
+..>>Start climbing up to adjust heights ......
+...6's height: 0 with balance: 0
+...5's height: 1 with balance: 1
+...3's height: 2 with balance: 0
+Trying to insert 4
+...going to the right
+...going to the left
+...adding 4 as the left child of 5
+4 points up now to 5
+..>>Start climbing up to adjust heights ......
+...4's height: 0 with balance: 0
+...5's height: 1 with balance: 0
+...3's height: 2 with balance: 0
+Trying to insert 4
+...going to the right
+...going to the left
+...error: the element already exists
+----------------------------------------
+Elements in the IN order:
+Root is: 3
+0    Height: 0 Balance: 0
+1    Height: 1 Balance: 0
+2    Height: 0 Balance: 0
+3    Height: 2 Balance: 0
+4    Height: 0 Balance: 0
+5    Height: 1 Balance: 0
+6    Height: 0 Balance: 0
+----------------------------------------
+then delete 5 nodes ..
+Trying to delete 6
+...going to the right
+...going to the right
+...removing 6
+.. removing a leaf
+..>>Start climbing up to adjust heights ......
+...5's height: 1 with balance: -1
+...3's height: 2 with balance: 0
+----------------------------------------
+Elements in the IN order:
+Root is: 3
+0    Height: 0 Balance: 0
+1    Height: 1 Balance: 0
+2    Height: 0 Balance: 0
+3    Height: 2 Balance: 0
+4    Height: 0 Balance: 0
+5    Height: 1 Balance: -1
+----------------------------------------
+Trying to delete 0
+...going to the left
+...going to the left
+...removing 0
+.. removing a leaf
+..>>Start climbing up to adjust heights ......
+...1's height: 1 with balance: 1
+...3's height: 2 with balance: 0
+----------------------------------------
+Elements in the IN order:
+Root is: 3
+1    Height: 1 Balance: 1
+2    Height: 0 Balance: 0
+3    Height: 2 Balance: 0
+4    Height: 0 Balance: 0
+5    Height: 1 Balance: -1
+----------------------------------------
+Trying to delete 5
+...going to the right
+...removing 5
+removing a vertex with just the left child
+4 points up to 3
+..>>Start climbing up to adjust heights ......
+...3's height: 2 with balance: -1
+Trying to delete 1
+...going to the left
+...removing 1
+removing a vertex with just the right child
+2 points up to 3
+..>>Start climbing up to adjust heights ......
+...3's height: 1 with balance: 0
+Trying to delete 3
+...removing 3
+...removing an internal vertex with children
+.....find the MAX of its left sub-tree
+.....Max is 2 and we need to delete it
+.. removing a leaf
+..>>Start climbing up to adjust heights ......
+...3's height: 1 with balance: 1
+.....replacing 3 with 2
+Trying to delete 7
+...going to the right
+...going to the right
+Did not find the key in the tree.
+----------------------------------------
+Elements in the IN order:
+Root is: 2
+2    Height: 1 Balance: 1
+4    Height: 0 Balance: 0
+----------------------------------------
+ 

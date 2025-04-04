@@ -1,0 +1,69 @@
+Script started on 2024-06-29 18:02:11-07:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004hbash-5.1$ logous/cs/recordhw Test.txt[C[C[C[C[C[C[C[C[C[C[6Pcd HW2P1_search[C[C[C[C[C[C[C[C[C[Cg++ HW2P1_search.c[K[C[C[C[C[C[C[C[C[C[CLScd forHHWPrograCS311Progrs[C[C[C[C[C[C[C[C[C[C[8PforH[4Pcled H2P1_search[C[C[C[C[C[C[C[C[C[C[2Pg++ mat.cpp [C[C[C[C[C[C[C[C[C[Ccd HW1P3_matr[6PforHWg++ mat.cpp [C[C[C[C[C[C[C[C[C[Ccd HW1P3_matr[6PforHW./hw2partitionDemo.out[C[C[C[C[C[C[C[C[C[Cg++ hw2partitionDemo.out[C[C[C[C[C[C[C[C[C[C[11Pcd HW2P2_sort[C[C[C[C[C[C[C[C[C[Cg++ hw2partitionDemo.out[C[C[C[C[C[C[C[C[C[C[2P./hw2partitionDemo.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.oa.o
+[?2004lHow many elements? (must be less than 10) 7
+Enter elements one per line..
+1
+7
+5
+6
+4
+2
+3
+Ok the pivot is 1
+Results...
+1|756423
+[?2004hbash-5.1$ ./a.out
+[?2004lHow many elements? (must be less than 10) 8
+Enter elements one per line..
+8
+7
+6
+5
+4
+3
+2
+1
+Ok the pivot is 8
+Results...
+1765432|8
+[?2004hbash-5.1$ ./a.out
+[?2004lHow many elements? (must be less than 10) 8
+Enter elements one per line..
+5
+1
+4
+3
+6
+7
+8
+2
+Ok the pivot is 5
+Results...
+2143|6785
+[?2004hbash-5.1$ ./a.ou[1Plogo./a.out
+[?2004lHow many elements? (must be less than 10) 6
+Enter elements one per line..
+4
+3
+1
+2
+7
+5
+Ok the pivot is 4
+Results...
+231|475
+[?2004hbash-5.1$ ./a.out
+[?2004lHow many elements? (must be less than 10) 5
+Enter elements one per line..
+2
+6
+4
+1
+7
+Ok the pivot is 2
+Results...
+1|6427
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-06-29 18:12:49-07:00 [COMMAND_EXIT_CODE="0"]

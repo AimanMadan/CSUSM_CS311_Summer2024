@@ -1,0 +1,16 @@
+EC2 Graphs (after HW8 has been completed)
+
+These files must be used for extra credit graph algorithm programs.
+- copy the list files from Hash forHW8/ 
+- run my .out solutions to learn what the output should be
+- read elem.cpp carefully
+- complete dgraph2.cpp
+- test using my clients
+
+Input file are utable.txt and dtable.txt
+  utable.txt == undirected graph for MST
+  dtable.txt == directed graph for Shortest
+
+Try testing with other input files, too.
+
+--- Note that HW7's EC (Detect Cycle) is also part of EC2 ------

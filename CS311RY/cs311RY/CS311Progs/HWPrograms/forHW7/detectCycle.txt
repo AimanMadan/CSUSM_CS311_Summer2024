@@ -1,0 +1,98 @@
+  Out Visit Adj
+ -----------------------
+A 2     0 [B F ]
+B 2     0 [C G ]
+C 1     0 [H ]
+E 0     0 [empty]
+F 2     0 [I E ]
+G 0     0 [empty]
+H 2     0 [G I ]
+I 3     0 [A G E ]
+Removed A from stack
+Current Path:A
+Visit A as 1
+...pushing: [B F ]
+-------------------
+Removed B from stack
+Current Path:AB
+Visit B as 2
+...pushing: [C G ]
+-------------------
+Removed C from stack
+Current Path:ABC
+Visit C as 3
+...pushing: [H ]
+-------------------
+Removed H from stack
+Current Path:ABCH
+Visit H as 4
+...pushing: [G I ]
+-------------------
+Removed G from stack
+Current Path:ABCHG
+Visit G as 5
+ Deadend reached - backup
+-------------------
+Removed I from stack
+Current Path:ABCHI
+Visit I as 6
+...pushing: [A G E ]
+-------------------
+Removed A from stack
+Current Path:ABCHIA
+A is marked already..
+@@@Cycle is found to it.
+Backup
+-------------------
+Removed G from stack
+Current Path:ABCHIG
+G is marked already..
+Backup
+-------------------
+Removed E from stack
+Current Path:ABCHIE
+Visit E as 7
+ Deadend reached - backup
+-------------------
+End of a path from I so backup.
+-------------------
+End of a path from H so backup.
+-------------------
+End of a path from C so backup.
+-------------------
+Removed G from stack
+Current Path:ABG
+G is marked already..
+Backup
+-------------------
+End of a path from B so backup.
+-------------------
+Removed F from stack
+Current Path:AF
+Visit F as 8
+...pushing: [I E ]
+-------------------
+Removed I from stack
+Current Path:AFI
+I is marked already..
+Backup
+-------------------
+Removed E from stack
+Current Path:AFE
+E is marked already..
+Backup
+-------------------
+End of a path from F so backup.
+-------------------
+End of a path from A so backup.
+-------------------
+  Out Visit Adj
+ -----------------------
+A 2     1 [B F ]
+B 2     2 [C G ]
+C 1     3 [H ]
+E 0     7 [empty]
+F 2     8 [I E ]
+G 0     5 [empty]
+H 2     4 [G I ]
+I 3     6 [A G E ]

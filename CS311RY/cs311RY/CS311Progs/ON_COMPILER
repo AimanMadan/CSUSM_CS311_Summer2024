@@ -1,0 +1,23 @@
+Note that to use exit(1), you need to include <stdlib.h>
+
+TO COMPILE: (G++ version 11)
+  g++ <list cpp files only>   
+  Never never compile .h files.
+
+TO RUN:
+  ./a.out
+
+TO RECORD TEST RESULTS:
+  /cs/recordhw <put a brand new .txt file name here e.g. Test.txt>
+
+  compile here
+  run here
+
+  exit
+
+Download the created .txt file to submit to CC
+
+TO LEARN MORE:
+    man g++
+
+

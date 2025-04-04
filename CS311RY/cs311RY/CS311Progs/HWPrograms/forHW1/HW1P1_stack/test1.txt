@@ -1,0 +1,209 @@
+Script started on 2024-05-26 10:26:22-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="117" LINES="62"]
+[?2004hbash-5.1$ cleaemacs stacktest.cpp[C[C[C[C[C[C[C[C[C[C[2Pg++[C[C[C[C[C[C[C[C[C[C[C[C[C.htest.cs stacktest.ct stacktest.cp[1P stacktest.cp[1P stacktest.c[C stacktest.cs stacktest.ct stacktest.ca stacktest.cc stacktest.ck stacktest.c. stacktest.cc stacktest.cp stacktest.cp stacktest.c[C stacktest.c[1Pstacktest.c
+[?2004l[?2004hbash-5.1$ ./a.out
+[?2004l************** STACK Test Program *************
+This program tests an integer stack ADT implemented as
+an array.  
+It is a menu based program allowing you to test each method. 
+It displays the entire stack whenever it is modified.
+***********************************************
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+STACK:---------
+[ empty ]
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 1
+The updated contents of the stack are:  
+STACK:---------
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 2
+The updated contents of the stack are:  
+STACK:---------
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 3
+The updated contents of the stack are:  
+STACK:---------
+3
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>1
+Enter a positive integer to be added : 4
+The updated contents of the stack are:  
+STACK:---------
+4
+3
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>4
+4 is at the top.
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>3
+4 has been removed.
+The updated contents of the stack are: STACK:---------
+3
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>4
+3 is at the top.
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+STACK:---------
+3
+2
+1
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>7
+STACK:---------
+[ empty ]
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+STACK:---------
+[ empty ]
+--------------
+
+MENU: These are your options: 
+
+   (1) Push an element   
+   (2) Display the entire stack  
+   (3) Pop the top element
+   (4) Display the top element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Clear the entire stack
+    Enter ( 0 ) to quit 
+===>0
+Bye bye - ending the stack test program
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-05-26 10:28:48-07:00 [COMMAND_EXIT_CODE="0"]

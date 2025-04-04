@@ -1,0 +1,11 @@
+Script started on 2024-06-15 14:37:40-07:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+[?2004hbash-5.1$ ./hw2partitionDemo.out[C[C[C[C[C[C[C[C[C[Cg++ hw2partitionDemo.out[C[C[C[C[C[C[C[C[C[C[2P./hw2partitionDemo.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.ou[1P.oa.o
+[?2004lreading from lines.txt
+0:a b c |b e f |- - - |- - - |
+1:- - - |- - - |c h i |- - - |
+2:- - - |- - - |- - - |d k l |
+saving the table in table.txt
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-06-15 14:38:01-07:00 [COMMAND_EXIT_CODE="0"]

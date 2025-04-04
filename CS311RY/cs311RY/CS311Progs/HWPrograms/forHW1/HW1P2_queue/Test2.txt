@@ -1,0 +1,31 @@
+Script started on 2024-05-27 13:27:47-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004hbash-5.1$ rm Test2.txt[C[C[C[C[C[C[C[C[C[C[10@/cs/recordhw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ queue.cpp client2.cpp[C[C[C[C[C[C[C[C[C[Cla/cs/recordhw Test1.txt[C[C[C[C[C[C[C[C[C[C[10Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ queue.cpp queuetest.cpp[C[C[C[C[C[C[C[C[C[C[13Pcd HW1P2_queu[5PforHW[6Plocd HWPrograCS311Pro[3Pcs311RCS311emacs test1.txt[C[C[C[C[C[C[C[C[C[C[7@/cs/recordhw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./a.out[[2Pclea./a.out
+[?2004lA
+B
+C
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC
+AAA
+AAB
+AAC
+ABA
+ABB
+ABC
+ACA
+ACB
+ACC
+BAA
+BAB
+BAC
+Queue Overflow. Exiting.
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-05-27 13:28:25-07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,146 @@
+Script started on 2024-08-09 23:25:59-07:00 [TERM="xterm" TTY="/dev/pts/8" COLUMNS="80" LINES="24"]
+[?2004hbash-5.1$ logous/cs/recordhw Test.txt[C[C[C[C[C[C[C[C[C[Cclear[./hw7.ou[2Pa.out
+[?2004lWelcome to Ai.man Hash Table Manager App!
+This specific application allows you to manage a hash table that stores musical elements.
+You are able to add, find, delete, display, & save the elements in the table.
+What is the input file? (.txt file)^[input.txt
+0:[ 333 A m 89 ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ empty ]
+6:[ empty ]
+7:[ empty ]
+8:[ 8 G m 65 45 Db M 175 ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ 200 B M 102 ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ empty ]
+22:[ 170 F# m 140 ]
+23:[ empty ]
+24:[ empty ]
+25:[ 802 C# m 105 ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[ empty ]
+33:[ empty ]
+34:[ empty ]
+35:[ empty ]
+36:[ empty ]
+
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+1
+What is the id to add? 333
+What is the song key?F#
+What is the mode (e.g., minor, major)? m
+What is the BPM (beats per minute)? 133
+Added the element in slot 0
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+2
+What is the id to find? 333
+Found this:
+[333 A m 89]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+3
+What is the id to find and delete? 333
+Found it and deleted it from slot:0
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+4
+The current contents are: 
+0:[ 333 F# m 133 ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ empty ]
+6:[ empty ]
+7:[ empty ]
+8:[ 8 G m 65 45 Db M 175 ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ 200 B M 102 ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ empty ]
+22:[ 170 F# m 140 ]
+23:[ empty ]
+24:[ empty ]
+25:[ 802 C# m 105 ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[ empty ]
+33:[ empty ]
+34:[ empty ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+5
+Saved the updated table in newout.txt
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+6
+bye
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-08-09 23:28:09-07:00 [COMMAND_EXIT_CODE="0"]

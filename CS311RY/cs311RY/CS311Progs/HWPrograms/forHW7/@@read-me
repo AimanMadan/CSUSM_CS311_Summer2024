@@ -1,0 +1,44 @@
+HW 7 INSTRUCTION:
+
+Copy all the HW6 files plus the stack class files.
+cp  ../forHW6/*.h .
+cp  ../forHW6/*.cpp .
+cp  ../forHW1/HW1P1_stack/stack.*  .
+
+1) The stack elements should be char this time.
+2) Remove all couts from
+   llist constructors and destructors. Remove other
+   debegging couts.
+3) Must add two functions to dgraph.h and dgraph.cpp
+
+- void visit(int, char) 
+   which will enter the given visit number
+   for a given vertex.
+   This is to indicate the order in which
+   vertices were visited.
+ Do not use a loop to look for the vertex.
+ Convert A to slot 0, B to slot 1 etc.
+
+- bool isMarked(char) 
+  which returns true if a given vertex was
+  already visited
+  (0 means not visited so return false)
+ Do not use a loop to look for a vertex
+
+-- Make sure displayGraph now displays
+    the visit numbers as well. Make the graph look nice.
+
+--------- Now to complete HW 7 -------------
+
+** Read the assignment sheet thoroughly.
+
+** First, check  my hw7.out. **
+
+Create hw7client.cpp that performs DFS of a dgraph
+producing the same output as mine. 
+Make sure you have added nice comments.
+
+
+
+
+

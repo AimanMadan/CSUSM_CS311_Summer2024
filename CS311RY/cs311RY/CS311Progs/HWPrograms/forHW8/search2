@@ -1,0 +1,14 @@
+
+  New searh2 in slist
+  
+  Make a copy of search and 
+
+  el_t search2(el_t X)
+  { el_t B; // blank
+    X has only the ID part set.
+    In the slist look for matching el_t in Elem (the same code as search)
+    Return the el_t obj or if not found
+    return a blank object B }
+
+  This way search2 should work with your HW3P2 as well.
+

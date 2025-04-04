@@ -1,0 +1,319 @@
+Script started on 2024-05-26 23:07:43-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004hbash-5.1$ ex./a.out
+[?2004l************** Queue Test Program *************
+This program tests the queue ADT implemented as
+an array.  
+It is a menu based program allowing you to test each method. 
+It displays the entire queue whenever it is modified.
+***********************************************
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[ empty ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : a
+The updated contents of the queue are:  
+[a ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : b
+The updated contents of the queue are:  
+[a b ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : c
+The updated contents of the queue are:  
+[a b c ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : d
+The updated contents of the queue are:  
+[a b c d ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : e
+The updated contents of the queue are:  
+[a b c d e ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : f
+The updated contents of the queue are:  
+[a b c d e f ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : g
+The updated contents of the queue are:  
+[a b c d e f g ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : h
+The updated contents of the queue are:  
+[a b c d e f g h ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : i
+The updated contents of the queue are:  
+[a b c d e f g h i ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : j
+The updated contents of the queue are:  
+[a b c d e f g h i j ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>4
+a is at the front.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>3
+a has been removed.
+The updated contents of the queue are: [b c d e f g h i j ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[b c d e f g h i j ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : k
+The updated contents of the queue are:  
+[b c d e f g h i j k ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>8
+10 elements are in Queue.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[b c d e f g h i j k ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>7
+[c d e f g h i j k b ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[c d e f g h i j k b ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>0
+Bye bye - ending the queue test program
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-05-26 23:11:05-07:00 [COMMAND_EXIT_CODE="0"]

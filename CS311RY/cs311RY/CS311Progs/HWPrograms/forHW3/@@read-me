@@ -1,0 +1,22 @@
+
+HW3 INSTRUCTIONS:
+
+-- First read the assignment sheet thoroughly.
+
+-- Try HW3demos (read @@read-me in it)
+   with lists that have no overloading and copy-constructor
+   to see what happens without overloading
+
+-- Then for P1
+1. complete llist.h and llist.cpp files including COMMENTS
+2. complete and test with HW3P1client.cpp
+<Case 1 output is due first using HW3case1.cpp!!!!>
+
+-- Then for P2
+3. complete slist.h and slist.cpp including COMMENTS
+4. complete and test with HW3P2client.cpp
+You must compile all .cpp files including llist.cpp
+
+MAKE SURE YOU KEEP YOUR FILES IN THIS FOLDER BECAUSE
+YOU WILL HAVE TO COPY THEM INTO HW6 LATER
+

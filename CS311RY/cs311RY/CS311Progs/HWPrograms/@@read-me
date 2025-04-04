@@ -1,0 +1,36 @@
+cs311 HW Programs
+----------------------------
+  These files must be used to write your HW programs!!
+  ** Work within these directories!! **
+
+  Always read @@read-me before you begin. 
+  Always read all files before you begin.
+
+  Always complete all ** parts
+  Always make sure all necessary files are #included
+  Note that to use exit(1), you must include <stdlib.h> 
+
+  .out files are my programs that you *should* run before you write
+   your own. Run them the same way you run a.out
+
+TO COMPILE:
+g++ <list cpp files only>   
+Never never compile .h files.
+
+If you have only one HW per directory, you can simply do
+g++ *.cpp 
+
+TO RUN:
+./a.out
+
+TO RECORD TEST RESULTS:
+/cs/recordhw <put a brand new .txt file name here e.g. Test.txt>
+
+compile here
+run here
+
+exit
+
+Download the created file using SFT. 
+
+

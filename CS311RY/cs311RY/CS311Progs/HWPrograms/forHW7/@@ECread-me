@@ -1,0 +1,21 @@
+ For HW7 EC which is one of the EC2:
+
+  Study my detectCycle.txt   (the correct output minus
+  displaying the stack each time)
+
+  Modify your hw7client.cpp to do the same
+  but be sure to
+  ** still display the stack as you did in HW7. PLEASE!! **
+
+  I think you will need in hw7client.cpp:
+  - a vector called Path
+  - a function to check to see if a vertex
+    is already in Path
+  - a function to display the Path
+
+*  You need to add to Path as you move forward
+*  You need to remove from Path as you backup to
+   a parent node.  The challenge is in figuring out
+   when you are backing up. This can be done all
+   within hw7client.cpp without changing other files.
+

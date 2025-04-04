@@ -1,0 +1,35 @@
+
+HW8 INSTRUCTIONS
+
+Read the assignment sheet thoroughly.
+
+You must do the preparation questions before you begin programming!
+
+Study the example hw8demo.out
+and the input/output table format examples.
+
+This HW shows how easy it is to change el_t
+to have multiple parts in it.  
+We need to define el_t in elem.h and elem.cpp to do this.
+
+PLEASE STUDY the files very carefully!!!!!
+
+Copy your llist and slist files here and
+update them first:
+ cp ../forHW7/llist.* . 
+ cp ../forHW7/slist.* . 
+1) el_t is now a class so remove typedef but
+   #include elem.h
+2) copy search as search2 and update search2 so
+   that it returns the found element
+   itself (el_t) and not the position 
+   (if not found, returns a completely blank el_t)
+
+Read the .h files to learn all the functions in .cpp
+
+Complete elem.cpp, htable.cpp and hw8client.cpp including good comments.
+
+Create your own input file with element parts per line!
+
+MUST TEST VERY THOROUGHLY!!!!!!!
+

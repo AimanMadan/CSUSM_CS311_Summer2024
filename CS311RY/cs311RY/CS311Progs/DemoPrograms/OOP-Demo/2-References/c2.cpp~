@@ -1,0 +1,37 @@
+// CS311 Yoshii - 
+// This demo program demostrates how pointers and references work
+// differently with objects
+// Are constructors and destructors called?
+// -----------------------------------------------------
+#include "girl.h"
+#include <iostream>
+
+girl& f(girl& X)
+{ girl Y = X;
+  return Y;
+}
+
+int main()
+{
+
+  girl G, H;   // G object is not in the heap
+
+  girl* F;  // F is a pointer to point to a girl object
+
+  H = f(G);  H->doit();
+
+  // *F = G;  causes segmentation fault because there is no cell that 
+  //  F points to yet.
+
+  //  F = new girl;  // F now points to a new girl in the heap
+  // *F = G;        // the cell it points can now be assigned a copy of G
+                 
+  // F = G;   mismatch  pointer = object does not work
+  F = &G;     // works because &G is an address; F points to G
+
+  F->doit();  // calls doit on G 
+  
+  *F = G;
+  F->doit();  // calls doit on G 
+  // destructor is called for G but not F
+}

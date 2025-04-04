@@ -1,0 +1,27 @@
+
+HW6 INSTRUCTIONS:
+
+Read the assignment sheet thoroughly.
+
+Copy all the linked list files here first (llist and slist).
+cp  ../forHW3/llist* .
+cp  ../forHW3/slist* .
+
+First test your slist/llist thoroughly
+   using slistTest files.
+If it does not work, you should not work on HW6 yet.
+
+PLEASE DO NOT remove couts in llist and slist constructors and
+destructors yet!!! 
+
+Then, llist typdef should be changed to char to allow vertex names.
+
+hw6.out shows the correct output but 
+do *not* do control-C to end YOUR program
+and make the table look nicer.
+
+This program will be needed to do HW7.
+
+
+
+

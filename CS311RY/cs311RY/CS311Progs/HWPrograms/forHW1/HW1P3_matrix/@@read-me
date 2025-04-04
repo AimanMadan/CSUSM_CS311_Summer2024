@@ -1,0 +1,21 @@
+Input file
+lines.txt
+------------
+
+Specifies the content of your table.
+
+each line has
+row col followed by characters to go into that entry in the table
+
+row is an integer  0, 1...
+col is a character a, b...  
+
+The number of characters per entry is always the same. That is why I do not have ; at the end of each line. 
+
+The matrix content should go to the output file at the end.
+
+Run mat.out to see what your output should look like.
+
+Feel free to change lines.txt to try different R, C and VM in mat.cpp
+
+

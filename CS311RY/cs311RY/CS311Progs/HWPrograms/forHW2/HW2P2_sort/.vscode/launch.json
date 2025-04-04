@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "type": "cmake",
+            "request": "launch",
+            "name": "CMake: Configure project",
+            "cmakeDebugType": "configure",
+            "clean": false,
+            "configureAll": false
+        },
+      {
+        "name": "Win32",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/include",
+          "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt",
+          "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/shared",
+          "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um",
+          "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/winrt",
+          "C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/cppwinrt"
+        ],
+        "defines": [
+          "_DEBUG",
+          "UNICODE",
+          "_UNICODE"
+        ],
+        "windowsSdkVersion": "10.0.19041.0",
+        "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "msvc-x64"
+      }
+    ],
+    "version": 4
+  }
+  

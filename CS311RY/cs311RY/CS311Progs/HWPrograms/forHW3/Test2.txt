@@ -1,0 +1,106 @@
+Script started on 2024-07-06 14:29:15-07:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="132" LINES="56"]
+[?2004hbash-5.1$ ./a.oug++ HW3P1case1.cpp llist.cpp[C[C[C[C[C[C[C[C[C[C./a.out[K
+[?2004l
+MENU: These are your options: 
+
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>2
+Case 2: Insert and Delete ------------
+... in llist constructor...
+Step 1 addFront 9 8 6 5
+Step 2
+[ 5 6 8 9 ]
+Step 3 insert first 4
+Step 4 insert 4th 7
+Step 5 insert 7th 10
+[ 4 5 6 7 8 9 10 ]
+Step 6 insert 9th
+Error: Out of range
+Step 7 insert 0th
+Error: Out of range
+Step 8
+[ 4 5 6 7 8 9 10 ]
+Step 9 delete 1st
+removed 4
+Step 10 delete 6th
+Removed: 10
+Step 11 delete 3rd
+Removed: 7
+[ 5 6 8 9 ]
+Step 12 delete 5th
+Error: Out of range
+Step 13 delete 0th
+Error: Out of range
+Step 14
+[ 5 6 8 9 ]
+Step 15 delete all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 16
+[ empty ]
+Step 17 insert 0th
+Error: Out of range
+Step 18 deleteFront
+Error: Underflow
+Step 19 delete 2nd
+Error: Out of range
+Step 20 deleteRear
+Error: Underflow
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>3
+Case 3: Copy Constructor and = -------
+... in llist constructor...
+... in llist constructor...
+Step 1 addRear 1 2 3 4 5
+L1: [ 1 2 3 4 5 ]
+Step 2 CopyTest(L1)
+calling the llist copy constructor
+in copy test
+[ 1 2 3 4 5 6 ]
+finished
+.... in llist destructor...
+-- After copytest --- 
+Step 3
+L1: [ 1 2 3 4 5 ]
+-- Testing operator overloading ---
+Step 4 L1 = L1
+calling the llist operator=
+Step 5
+L1: [ 1 2 3 4 5 ]
+Step 6 addRear 7 8 9 10
+Step 7
+L2: [ 7 8 9 10 ]
+Step 8 L2 = L1
+calling the llist operator=
+Step 9
+L2: [ 1 2 3 4 5 ]
+Step 10 deleteRear from L1
+Step 11
+L1: [ 1 2 3 4 ]
+Step 12
+L1: [ 1 2 3 4 ]
+Step 13
+L2: [ 1 2 3 4 5 ]
+.... in llist destructor...
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+[?2004hbash-5.1$ exit
+[?2004lexit
+
+Script done on 2024-07-06 14:29:47-07:00 [COMMAND_EXIT_CODE="0"]
